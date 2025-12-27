@@ -1,4 +1,5 @@
-package normalizaHoras; /**
+package normalizaHoras;
+/**
  * Ejercicio: Normalizador de Tiempo.
  * Este programa toma una cantidad de horas, minutos y segundos y los normaliza
  * (por ejemplo, 61 segundos se convierten en 1 minuto y 1 segundo).

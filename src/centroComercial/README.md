@@ -18,7 +18,7 @@ Se desea modelar un centro comercial que gestiona tres tiendas de marcas específ
   - Bershka: 200?
 - El sistema utiliza estructuras `if-else` para la selección de tiendas y lógica de descuentos.
 
-## ? Ejemplo de Uso (normalizaHoras.Main)
+## ? Ejemplo de Uso (centroComercial.Main)
 ```java
 
 CentroComercial centro = new CentroComercial("Inditex Park");

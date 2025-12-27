@@ -1,5 +1,7 @@
+package narcisistas;
+
 /**
- * Ejercicio: Números Narcisistas.
+ * Ejercicio: Números narcisistas.
  * Un número narcisista es aquel que es igual a la suma de sus propios dígitos 
  * elevados a la potencia del número de dígitos.
  * Este programa comprueba si un número de 3 cifras es narcisista usando aritmética básica.

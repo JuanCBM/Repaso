@@ -1,6 +1,8 @@
+package fibonacci;
+
 /**
- * Ejercicio: Sucesión de Fibonacci.
- * Este programa genera los primeros N números de la sucesión de Fibonacci.
+ * Ejercicio: Sucesión de fibonacci.
+ * Este programa genera los primeros N números de la sucesión de fibonacci.
  * La sucesión comienza con 0 y 1, y cada número subsiguiente es la suma de los dos anteriores.
  */
 public class Fibonacci {
@@ -12,7 +14,7 @@ public class Fibonacci {
     long b = 1;
     long resultado;
 
-    System.out.println("Primeros " + numeroIteraciones + " números de la sucesión de Fibonacci:");
+    System.out.println("Primeros " + numeroIteraciones + " números de la sucesión de fibonacci:");
 
     while (numeroIteracionActual < numeroIteraciones) {
       System.out.println((numeroIteracionActual + 1) + ": " + a);

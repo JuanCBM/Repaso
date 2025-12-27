@@ -1,9 +1,9 @@
 # Ejercicio: Gestor de Calendario de Fútbol
 
-## ? Contexto
+## Contexto
 El objetivo es crear un simulador de calendario para determinar el día exacto de un partido de Liga basándose en la semana del año.
 
-## ? Reglas del Modelo
+## Reglas del Modelo
 Para simplificar los cálculos, el programa sigue estas reglas:
 1. **Meses Estándar**: Todos los meses tienen exactamente **30 días**.
 2. **Inicio del Año**: El año comienza un **Lunes** (1 de Enero).
@@ -11,13 +11,13 @@ Para simplificar los cálculos, el programa sigue estas reglas:
     - **Semanas Impares**: El partido se juega el **Sábado**.
     - **Semanas Pares**: El partido se juega el **Domingo**.
 
-## ? Funcionamiento del Programa
+## Funcionamiento del Programa
 1. El usuario introduce un día (1-30) y un mes (1-12).
 2. El programa calcula el día total transcurrido en el año.
 3. Determina el número de semana (base 1).
 4. Informa si la semana es par o impar y calcula la fecha exacta del partido correspondiente (Sábado o Domingo).
 
-## ? Ejemplo de Salida
+## Ejemplo de Salida
 ```text
 --- Gestor de Partidos de Fútbol ---
 Introduce el día (1-30): 10

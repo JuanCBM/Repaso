@@ -1,9 +1,9 @@
 # Ejercicio POO: Centro Comercial Inditex
 
-## ? Contexto
+## Contexto
 Se desea modelar un centro comercial que gestiona tres tiendas de marcas específicas (**Zara**, **Pull&Bear** y **Bershka**). El sistema debe permitir registrar ventas, aplicar descuentos por rebajas y ser capaz de guardar/restaurar el estado de las ventas.
 
-## ?? Funcionalidades
+## Funcionalidades
 1. **Gestión de Tiendas**: Cada tienda tiene un nombre, ventas acumuladas y configuración de rebajas.
 2. **Rebajas Dinámicas**: Se puede activar el estado de rebajas y configurar porcentajes de descuento específicos (por ejemplo, 30% en Zara).
 3. **Persistencia Temporal**:
@@ -11,14 +11,14 @@ Se desea modelar un centro comercial que gestiona tres tiendas de marcas específ
    - `restaurarEstado()`: Vuelve a las cifras de ventas capturadas en el último guardado.
 4. **Cálculos Automáticos**: Al registrar una venta, el sistema aplica automáticamente el descuento si las rebajas están activas para esa tienda.
 
-## ? Reglas de Negocio
+## Reglas de Negocio
 - Al crear el centro comercial, las tiendas comienzan con ventas iniciales:
   - Zara: 500?
   - Pull&Bear: 300?
   - Bershka: 200?
 - El sistema utiliza estructuras `if-else` para la selección de tiendas y lógica de descuentos.
 
-## ? Ejemplo de Uso (centroComercial.Main)
+## Ejemplo de Uso (centroComercial.Main)
 ```java
 
 CentroComercial centro = new CentroComercial("Inditex Park");

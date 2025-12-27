@@ -1,9 +1,9 @@
 # Ejercicio: Calculadora de Horóscopo Chino y Elementos
 
-## ? Contexto
+## Contexto
 El horóscopo chino es un sistema milenario que asigna un animal a cada año en un ciclo de 12 años. Además, cada año está asociado a uno de los cinco elementos esenciales (Metal, Agua, Madera, Fuego y Tierra), los cuales rotan cada dos años basándose en el último dígito del año de nacimiento.
 
-## ? Reglas del Modelo
+## Reglas del Modelo
 
 ### 1. El Animal (Ciclo de 12 años)
 El animal se determina calculando el resto de la división del año entre 12 (`año % 12`):
@@ -30,7 +30,7 @@ El elemento se determina según el **último dígito** del año de nacimiento:
 - **6 o 7**: Fuego
 - **8 o 9**: Tierra
 
-## ? Ejemplo de Salida
+## Ejemplo de Salida
 ```text
 --- Calculadora de Horóscopo Chino ---
 Introduce tu año de nacimiento (ej. 1995): 1995
